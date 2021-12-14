@@ -1,6 +1,5 @@
 from qrcode import *
-import qrcode.image.pil
-
+import qrcode.image.pil # What is wrong here? Have to install Pillow with Python Packages to resolve error.
 import check_exists as exist
 import cleanup_strings as clean
 import get_collection as collection
